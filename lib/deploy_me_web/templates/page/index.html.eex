@@ -1,0 +1,2 @@
+<h1>Test Application for Chef Development</h1>
+<p>Compile time config: <%= IO.inspect my_compile_time_config %></p>
