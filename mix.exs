@@ -5,7 +5,7 @@ defmodule DeployMe.Mixfile do
     [
       app: :deploy_me,
       version: "0.1.5",
-      elixir: "~> 1.4",
+      elixir: "~> 1.8",
       elixirc_paths: elixirc_paths(Mix.env),
       compilers: [:phoenix, :gettext] ++ Mix.compilers,
       start_permanent: Mix.env == :prod,
@@ -38,7 +38,7 @@ defmodule DeployMe.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:plug_cowboy, "~> 1.0"},
-      {:distillery, "~> 1.4.1", runtime: false},
+      {:distillery, "~> 2.0"}
     ]
   end
 end
