@@ -23,4 +23,4 @@ config :logger, :console,
 import_config "#{Mix.env}.exs"
 
 config :deploy_me,
-  blah: "bleep"
+  blah: "bleerp"
