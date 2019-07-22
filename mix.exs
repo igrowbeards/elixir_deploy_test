@@ -39,7 +39,7 @@ defmodule DeployMe.Mixfile do
       {:gettext, "~> 0.11"},
       {:plug_cowboy, "~> 1.0"},
       {:distillery, "~> 2.1.1"},
-      {:timex, "~> 3.5"}
+      {:timex, "3.5.0"}
     ]
   end
 end
