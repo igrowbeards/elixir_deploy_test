@@ -4,7 +4,7 @@ defmodule DeployMe.Mixfile do
   def project do
     [
       app: :deploy_me,
-      version: "0.1.13",
+      version: "0.1.14",
       elixir: "~> 1.9",
       elixirc_paths: elixirc_paths(Mix.env),
       compilers: [:phoenix, :gettext] ++ Mix.compilers,
@@ -39,7 +39,7 @@ defmodule DeployMe.Mixfile do
       {:gettext, "~> 0.11"},
       {:plug_cowboy, "~> 1.0"},
       {:distillery, "~> 2.1.1"},
-      {:parse_trans, "~> 3.3"}
+      {:timex, "~> 3.5"}
     ]
   end
 end
