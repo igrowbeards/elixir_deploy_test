@@ -4,7 +4,7 @@ defmodule DeployMe.Mixfile do
   def project do
     [
       app: :deploy_me,
-      version: "0.1.14",
+      version: "0.1.16",
       elixir: "~> 1.9",
       elixirc_paths: elixirc_paths(Mix.env),
       compilers: [:phoenix, :gettext] ++ Mix.compilers,
