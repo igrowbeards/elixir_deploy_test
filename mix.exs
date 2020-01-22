@@ -39,7 +39,8 @@ defmodule DeployMe.Mixfile do
       {:gettext, "~> 0.11"},
       {:plug_cowboy, "~> 1.0"},
       {:distillery, "~> 2.1.1"},
-      {:timex, "3.5.0"}
+      {:timex, "3.5.0"},
+      {:ex_sifi_shared, "~> 2.0", organization: "simplifi"}
     ]
   end
 end
